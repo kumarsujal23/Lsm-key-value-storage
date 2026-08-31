@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include "murmur3.h"
+#include "murmur.h"
 
 class BloomFilter {
 public:

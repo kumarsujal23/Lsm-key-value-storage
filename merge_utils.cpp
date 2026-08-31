@@ -26,7 +26,7 @@ struct SSTableMergeCmp {
     }
 };
 
-std::vector<std::shared_ptr<LSMEntry>> MergeSSTables(
+std::vector<std::shared_ptr<LSMEntry>> MergeRanges(
     const std::vector<std::vector<std::shared_ptr<LSMEntry>>>& ranges) {
     
     // Initialize our priority queue with the new key-based comparator
